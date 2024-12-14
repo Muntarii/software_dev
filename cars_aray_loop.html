@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Array</title>
+    <script>
+        // Define the array 'cars' with initial values
+        let cars = ["toyota", "honda", "mazda", "mitsubishi", "tesla", "lexus"];
+
+        // Log the first and last item in the array
+        console.log("First item:", cars[0]); // First item (index 0)
+        console.log("Last item:", cars[cars.length - 1]); // Last item using length property
+
+        // Add "mercedes-benz" to the array
+        cars.push("mercedes-benz");
+
+        // Log the newly added item
+        console.log("Added item:", cars[cars.length - 1]);
+
+        // Loop through all items in the array and log them
+        console.log("All cars in the array:");
+        for (let i = 0; i < cars.length; i++) {
+            console.log(cars[i]);
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Check the console for the results!</h1>
+
+</body>
+</html>
